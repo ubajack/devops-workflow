@@ -25,3 +25,4 @@ jobs:
       - run: cat test.txt
   idle-job:
     runs-on: ubuntu-latest
+    steps:
