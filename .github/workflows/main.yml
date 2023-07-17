@@ -1,7 +1,11 @@
 # Nom du workflow
 name: Mon workflow
 # Condition pour lancer le workflow
-on: [push]
+on:
+  push:
+    branches: [ "development" ]
+  pull_request:
+    branches: [ "main" ]
 # Tâches à effectuer
 jobs: 
   # Première tâche
