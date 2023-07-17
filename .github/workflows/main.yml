@@ -9,3 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Mon premier job a été lancé"
+  # Deuxièmre tâche
+  mon-deuxieme-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deuxième job"
+      - run: echo "test" > test.txt
+      - run: ll
+      - run: cat test.txt
