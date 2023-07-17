@@ -26,3 +26,4 @@ jobs:
   idle-job:
     runs-on: ubuntu-latest
     steps:
+      - run: echo ""
